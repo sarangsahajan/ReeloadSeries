@@ -70,7 +70,7 @@ async def cb_handler(client, query):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/reeloadmedia")
+                        "Join Our channel", url="https://t.me/reeloadmedia")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
