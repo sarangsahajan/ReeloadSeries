@@ -47,7 +47,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://t.me/RMChats"),
+                    InlineKeyboardButton("BOT", url="http://t.me/reeloadseriesbot"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
