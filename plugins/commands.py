@@ -243,12 +243,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://t.me/RMChats"),
+                    InlineKeyboardButton("OWNER", url="https://t.me/N_OB_OD_Y"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ],
                 [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/reeloadmedia"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/RMChats")
+                    InlineKeyboardButton("SUPPORT CHANNEL", url="https://t.me/ReeloadMedia"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/ReeloadMediaChats")
                 ]
             ]
         ),
@@ -265,7 +265,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://t.me/reeloadmedia")
+                        "SUPPORT CHANNEL", url="https://t.me/reeloadmedia")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
