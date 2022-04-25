@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  worker:
+    build: .
+    environment:
+      API_ID: $API_ID
+      API_HASH: $API_HASH
+      TG_BOT_TOKEN: $TG_BOT_TOKEN
+      DATABASE_URI: $DATABASE_URI
+      SAVE_USER: $SAVE_USER
+      AUTH_USERS: $AUTH_USERS
+      DATABASE_NAME: $DATABASE_NAME
+      HEROKU_API_KEY: $HEROKU_API_KEY
