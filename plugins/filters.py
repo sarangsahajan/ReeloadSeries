@@ -318,7 +318,7 @@ async def delallconfirm(client, message):
 
 @Client.on_message(filters.group & filters.text)
 async def give_filter(client,message):
-    group_id = message.chat.id
+    group_id = Config.FILTER_CHAT
     name = message.text
 
     keywords = await get_filters(group_id)
