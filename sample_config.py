@@ -14,6 +14,7 @@ class Config(object):
     # Get from my.telegram.org (or @UseTGXBot)
     API_HASH = os.environ.get("API_HASH", "")
     
+    FILTER_CHAT = os.environ.get("FILTER_CHAT", "")
     
     # Database URL from https://cloud.mongodb.com/
     DATABASE_URI = os.environ.get("DATABASE_URI", "")
